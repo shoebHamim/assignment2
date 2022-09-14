@@ -194,8 +194,8 @@ hr {
 /* tablet view */
 
 @media screen and (max-width:1100px) {
-  body{
-    /* background-color:#356bdc; */
+  .top .image{
+    width: 50vw;
   }
   .middle{
     flex-direction: column;
@@ -234,6 +234,13 @@ hr {
   }
   .top .text h1{
     font-size: 3rem;
+  }
+  .links{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .links a{
+    margin: 1rem;
   }
 
 }
