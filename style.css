@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+}
+.top {
+  width: 80vw;
+  min-height: 80vh;
+  border: 2px solid black;
+  margin: 4rem auto;
+  display: flex;
+  background-color: #161616;
+  border-radius: 2rem;
+}
+.top .text {
+  width: 45%;
+  color: white;
+  margin: 7rem;
+}
+.top .text p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+}
+.top .text h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 4.5rem;
+  line-height: 4.5rem;
+}
+.top .image {
+  width: 55%;
+}
+.top img {
+  width: 80%;
+  height: 100%;
+}
+.top button {
+  color: white;
+  background-color: #356bdc;
+  border: none;
+  padding: 1rem 1.5rem;
+  border-radius: 0.4rem;
+}
+
+/* middle section start */
+.middle {
+  min-height: 100vh;
+  width: 80vw;
+  margin: auto;
+  margin-top: 8rem;
+  display: flex;
+}
+.options {
+  height: 312px;
+  width: 312px;
+  display: flex;
+  flex-direction: column;
+  background-color: #161616;
+  border-radius: 0.5rem;
+  justify-content: center;
+}
+.options button {
+  margin: 0.6rem 2rem;
+  border: none;
+  padding: 1.5rem 1.5rem;
+  border-radius: 0.5rem;
+}
+.selected {
+  background-color: #356bdc;
+  color: white;
+}
+
+.cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 0 2rem 2rem;
+  gap: 1rem;
+}
+.card {
+  border: 1px solid #e8e8e8;
+  border-radius: 10px;
+}
+.card img {
+  width: 100%;
+}
+.card .text {
+  margin: 0.7rem;
+}
+.card .text h3 {
+  margin: 1rem 0;
+}
+.card .text button {
+  background-color: white;
+  border-radius: 5px;
+  padding: 0.3rem 0.6rem;
+  font-weight: 700;
+}
+.card .text img {
+  height: 24px;
+  width: 24px;
+}
+.icons {
+  display: flex;
+  color: #161616b2;
+  align-items: center;
+}
+.goal {
+  min-height: 40vh;
+  background-color: #161616;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.links {
+  width: 50vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+hr {
+  width: 80vw;
+}
+
+.line-1 {
+  height: 1px;
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 80vw;
+  margin: 2rem 0;
+}
+.goal h1 {
+  font-family: poppins;
+  font-size: 40px;
+}
+
+/* middle section end */
